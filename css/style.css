@@ -9,49 +9,49 @@ body {
     content: '';
     height: 100vh;
     width: 100%;
-    background-image: url('../Images/Logo1.png');
+    background-image: url('../Images/floriane-vita-FyD3OWBuXnY-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
-    transition: all 1000ms;
+    /*filter: blur(1px);
+    -webkit-filter: blur(1px);*/
+    transition: all 100ms;
   }
   .header1::after {
     content: '';
     height: 100vh;
     width: 100%;
-    background-image: url('../Images/Logo2.png');
+    /* background-image: url('../Images/Logo2.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
-    transition: all 1000ms;
+    /*filter: blur(1px);
+    -webkit-filter: blur(1px);*/
+    transition: all 100ms;
   }
 
 
   .header:hover::after {
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
+    /* filter: blur(0px);
+    -webkit-filter: blur(0px);*/
    
   }
   
   .header:hover .header-content {
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+   /* filter: blur(2px);
+    -webkit-filter: blur(2px);*/
   }
   
   .header-content {
     position: absolute;
     z-index: 1;
-    top: 10%;
+    top: 15%;
     left: 50%;
     margin-top: 105px;
-    margin-left: -145px;
-    width: 300px;
+    margin-left: -305px;
+    width: 400px;
     height: 350px;
     text-align: center;
     transition: all 1000ms; 
@@ -59,8 +59,8 @@ body {
   }
   
   .header-content .logo {
-    height: 40px;
-    width: 100px;
+    height: 600px;
+    width: 200px;
   }
   
   .dot {
@@ -136,12 +136,16 @@ body {
     
     .header-content {
       top: 2%;
-      margin-top: 10px;
+      margin-top: 40px;
+      margin-left: -100px;
+      width: 200px;
+      height: 300px;
     }
   
     .header-content .logo {
       height: 15px;
       width: 40px;
+      height: 30px;
     }
 
     }
